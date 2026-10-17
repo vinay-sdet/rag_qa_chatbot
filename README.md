@@ -1,8 +1,8 @@
 # QA RAG Chatbot
 
-A small command-line chatbot that answers QA testing questions from a fictional knowledge base. It retrieves relevant notes with Chroma, then asks `gpt-4o-mini` to answer using only that context.
+A small command-line chatbot that answers QA testing questions from a fictional knowledge base. It retrieves relevant notes with Chroma, then asks `gpt-4o-mini` to answer using only that context
 
-The knowledge base covers card payments, authentication failures, and refunds. Questions outside those notes should get a reply that there is not enough information.
+The knowledge base covers card payments, authentication failures, and refunds. Questions outside those notes should get a reply that there is not enough information
 
 ## Requirements
 
