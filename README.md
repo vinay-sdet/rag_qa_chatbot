@@ -18,7 +18,7 @@ Packages are listed in `requirements.txt`:
 
 ## Setup (Windows PowerShell)
 
-1. Open this folder in VS Code.
+1. Open this folder in VS Code
 2. Create and activate a virtual environment:
 
    ```powershell
