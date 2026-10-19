@@ -69,7 +69,7 @@ The timeout question is outside the knowledge base. The prompt tells the model t
 
 ## How it works
 
-1. Load the four source documents.
+1. Load the four source documents
 2. Split them with `RecursiveCharacterTextSplitter` (`chunk_size=300`, `chunk_overlap=50`).
 3. Embed the chunks with OpenAI `text-embedding-3-small`.
 4. Store the vectors and text in Chroma (`./chroma_db`, collection `qa_knowledge`).
