@@ -58,7 +58,6 @@ The first run creates a local `chroma_db` directory and indexes the documents in
 The timeout question is outside the knowledge base. The prompt tells the model to say when the context does not contain the answer. That instruction reduces unsupported answers; it does not make them impossible.
 
 ## Knowledge base
-
 `rag_bot.py` embeds four short notes:
 
 | Module | What it covers |
@@ -86,7 +85,6 @@ chroma_db/          Local vector store, created on first run
 ```
 
 ## Notes
-
 - Embedding and chat calls go to OpenAI and can incur charges.
 - The vector store is local. Delete `chroma_db` if you change the source documents and want a fresh index.
 - This is a learning prototype, with a hardcoded knowledge base and no conversation memory.
