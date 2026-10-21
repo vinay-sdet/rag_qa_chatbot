@@ -29,7 +29,7 @@ documents = [
 
 
 splitter = RecursiveCharacterTextSplitter(
-    chunk_size=300,
+    chunk_size=350,
     chunk_overlap=50
 )
 
